@@ -1,7 +1,8 @@
 #include <stdio.h>
+/*This is a betty comment*/
 int main(void)
 {
-	/*THis is a betty comment*/
+
 	char myStr[] = "\"Programming is like building a multilingual puzzle";
 	puts(myStr);
 
