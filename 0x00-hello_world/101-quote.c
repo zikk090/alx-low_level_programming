@@ -1,21 +1,15 @@
-/*
- *  * File: 101-quote.c
- *   * Auth: Brennan D Baraban
- *    */
-
-#include <unistd.h>
+#include<unistd.h>
 
 /**
- *  * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- *   *                followed by a new line, to standard error.
- *    *
- *     * Return: Always 1.
- *      */
+ * main - Entry point
+ *
+ * Return: This time we return an error 1.
+*/
+
 int main(void)
 {
-	write(2,
-		"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-		59);
+	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
+	write(1, quo, 59);
 	return (1);
 }

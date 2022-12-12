@@ -1,1 +1,1 @@
-Intentional alx c programming course
+hello, world
